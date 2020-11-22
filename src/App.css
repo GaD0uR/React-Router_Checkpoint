@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffbc7d;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+h3,
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+li {
+  float: left;
+  display: flex;
+  color: white;
+  padding: 14px 16px;
+  align-items: center;
+}
+
+li:hover {
+  background-color: red;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
